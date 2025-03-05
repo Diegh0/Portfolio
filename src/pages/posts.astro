@@ -2,17 +2,17 @@
 import PageHeading from "../components/page-heading.astro";
 import PostsLoop from "../components/posts-loop.astro";
 import Layout from "../layouts/main.astro";
+import Skills from "../components/Skills.jsx";
+
 ---
 
 <Layout title="My Writing">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
-      title="My Writing"
-      description="Dive into my musings on life and tech in my latest posts; a blend of introspection and innovation. Keep an eye out for fresh insights and updates!"
+      title="Skills"
+      description="A lo largo de mi trayectoria, he trabajado con diversas tecnologías para construir aplicaciones escalables, eficientes y atractivas. Desde desarrollo frontend y backend hasta automatización y despliegue, aquí te muestro mis principales habilidades y nivel de dominio. 🚀"
     />
 
-    <div class="z-50 flex flex-col items-stretch w-full gap-5 my-8">
-      <PostsLoop count="999999999" />
-    </div>
+   <Skills/>
   </section>
 </Layout>
