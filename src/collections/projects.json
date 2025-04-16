@@ -4,6 +4,12 @@
 		"description": "Plataforma web para bienestar mental",
 		"image": "/assets/images/projects/psicoApp.png",
 		"url": "https://mental-ht.web.app"
+	},
+	{
+		"name": "Gastro-fit",
+		"description": "Plataforma web para planificar tu alimentación",
+		"image": "/assets/images/projects/GastroFit.jpeg",
+		"url": "https://gastro-fit-lyx2.vercel.app"
 	}
 	
 ]
